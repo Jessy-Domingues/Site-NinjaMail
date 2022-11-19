@@ -1,0 +1,109 @@
+@import 'variables';
+
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width: 1200px){
+        width:96%;
+        height: 15vh;
+    }
+    
+    .title{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        @media only screen and (max-width: 768px){
+            width: 50%;
+        }
+        
+        img{
+            height: 5em;
+            @media only screen and (max-width: 992px){
+                height: 3em;
+            }
+           
+        }
+
+        h1{
+        font-weight:900;
+        font-size: 2.3em;
+        @media only screen and (max-width: 992px){
+            font-size: 1.4em;
+        }
+        }
+        
+    }
+
+    .menu{
+        width: 65%;
+        @media only screen and (max-width: 768px){
+            width: 40%;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @media only screen and (max-width: 768px){
+                justify-content: flex-end;
+            }
+            
+        
+        ul{
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            @media only screen and (max-width: 768px){
+                display: none;
+            }
+            
+            li{
+                display: flex;
+                
+                a{
+                text-decoration: none;
+                font-weight: 800;
+                @media only screen and (max-width: 992px){
+                    font-size: 0.7em;
+                }
+
+                &:hover{
+                    text-decoration: underline;
+                    text-decoration-thickness: 5px;
+                    @media only screen and (max-width: 992px){
+                        text-decoration-thickness: 3px;
+                    }
+                    text-underline-offset: 1em;
+                    text-decoration-color: $primary;
+
+                
+                  
+                    
+                    
+                }
+                }
+            }
+        }
+        .navbtn{
+            height: 3em;
+            width: 25%;
+            font-size: 1rem;
+            font-weight: 800;
+            padding: 1% 0%;
+            color: white;
+            background-color: #4BA87D;
+            border: none;
+            @media only screen and (max-width: 992px){
+                font-size: 0.7em;
+                height: 2rem;
+            }
+            @media only screen and (max-width: 768px){
+                width: 90%;
+                height: 2.5rem;
+            }
+        }
+    }
+}
+}

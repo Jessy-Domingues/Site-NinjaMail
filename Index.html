@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>NinjaMail</title>
 </head>
 <body>
 <!-- Début du Header -->
     <header>
-        <div class="title">
+        <div href="#home"class="active title">
             <div>
                 <img src="./Assets/mail (image).png" alt="Lettre Logo NinjaMail">
             </div>
@@ -25,7 +26,7 @@
                 <h1>NinjaMail</h1>
             </div>
         </div>
-        <div class="menu">
+        <div id="myLinks"class="menu">
             <nav>
                 <ul>
                     <li><a>FEATURES</a></li>
@@ -36,6 +37,9 @@
                 <button type="submit" class="navbtn">SIGN UP FREE</button>
             </nav>  
         </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
     </header>
 <!-- Fin du Header -->
 <!-- Début Hero -->
@@ -218,5 +222,7 @@
 </div>
 
 </footer>
+
+<script src="./topnav.js"></script>
 </body>
 </html>

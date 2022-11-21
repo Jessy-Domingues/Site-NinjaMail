@@ -11,6 +11,27 @@ header {
     height: 15vh;
   }
 }
+@media only screen and (max-width: 768px) {
+  header {
+    overflow: hidden;
+    position: relative;
+  }
+}
+header .icon {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  header .icon {
+    color: #4BA87D;
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+  }
+  header .icon i {
+    font-size: 2em;
+  }
+}
 header .title {
   display: flex;
   align-items: center;
@@ -18,7 +39,7 @@ header .title {
 }
 @media only screen and (max-width: 768px) {
   header .title {
-    width: 50%;
+    width: 40%;
   }
 }
 header .title img {
@@ -43,7 +64,8 @@ header .menu {
 }
 @media only screen and (max-width: 768px) {
   header .menu {
-    width: 40%;
+    width: 60%;
+    display: none;
   }
 }
 header .menu nav {
@@ -51,20 +73,10 @@ header .menu nav {
   justify-content: space-between;
   align-items: center;
 }
-@media only screen and (max-width: 768px) {
-  header .menu nav {
-    justify-content: flex-end;
-  }
-}
 header .menu nav ul {
   width: 80%;
   display: flex;
   justify-content: space-around;
-}
-@media only screen and (max-width: 768px) {
-  header .menu nav ul {
-    display: none;
-  }
 }
 header .menu nav ul li {
   display: flex;
@@ -76,6 +88,13 @@ header .menu nav ul li a {
 @media only screen and (max-width: 992px) {
   header .menu nav ul li a {
     font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .menu nav ul li a {
+    padding: 14px 16px;
+    font-size: 0.7em;
+    display: block;
   }
 }
 header .menu nav ul li a:hover {
@@ -614,6 +633,7 @@ body #thdsection .imgs .presentF {
 @media only screen and (max-width: 768px) {
   body #thdsection .imgs .presentF {
     width: 80%;
+    height: 33vh;
     margin: 5% 10%;
   }
 }
@@ -631,6 +651,7 @@ body #thdsection .imgs .presentC {
 @media only screen and (max-width: 768px) {
   body #thdsection .imgs .presentC {
     width: 80%;
+    height: 33vh;
     margin: 5% 10%;
   }
 }
@@ -648,6 +669,7 @@ body #thdsection .imgs .presentE {
 @media only screen and (max-width: 768px) {
   body #thdsection .imgs .presentE {
     width: 80%;
+    height: 33vh;
     margin: 5% 10%;
   }
 }

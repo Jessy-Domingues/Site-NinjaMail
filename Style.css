@@ -15,6 +15,10 @@ header {
   header {
     overflow: hidden;
     position: relative;
+    flex-wrap: wrap;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 header .icon {
@@ -40,6 +44,7 @@ header .title {
 @media only screen and (max-width: 768px) {
   header .title {
     width: 40%;
+    margin-top: 2%;
   }
 }
 header .title img {
@@ -64,7 +69,8 @@ header .menu {
 }
 @media only screen and (max-width: 768px) {
   header .menu {
-    width: 60%;
+    width: 80%;
+    margin: auto;
     display: none;
   }
 }
@@ -72,6 +78,11 @@ header .menu nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  header .menu nav {
+    flex-direction: column;
+  }
 }
 header .menu nav ul {
   width: 80%;
@@ -127,7 +138,7 @@ header .menu nav .navbtn {
 }
 @media only screen and (max-width: 768px) {
   header .menu nav .navbtn {
-    width: 90%;
+    width: 50%;
     height: 2.5rem;
   }
 }

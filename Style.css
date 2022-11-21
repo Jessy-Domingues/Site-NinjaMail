@@ -631,8 +631,6 @@ body #thdsection .imgs .presentC {
 @media only screen and (max-width: 768px) {
   body #thdsection .imgs .presentC {
     width: 80%;
-    height: 60vh;
-    background-size: 100% 100%;
     margin: 5% 10%;
   }
 }

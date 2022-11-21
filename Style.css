@@ -100,11 +100,13 @@ header .menu nav ul {
 }
 header .menu nav ul li {
   display: flex;
-  width: 40%;
+  width: 50%;
+  justify-content: center;
 }
 header .menu nav ul li a {
   text-decoration: none;
   font-weight: 800;
+  width: 50%;
 }
 @media only screen and (max-width: 992px) {
   header .menu nav ul li a {

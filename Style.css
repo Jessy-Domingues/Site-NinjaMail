@@ -614,6 +614,7 @@ body #thdsection .imgs .presentF {
 @media only screen and (max-width: 768px) {
   body #thdsection .imgs .presentF {
     width: 80%;
+    height: 50vh;
     margin: 5% 10%;
   }
 }
@@ -631,6 +632,7 @@ body #thdsection .imgs .presentC {
 @media only screen and (max-width: 768px) {
   body #thdsection .imgs .presentC {
     width: 80%;
+    height: 50vh;
     margin: 5% 10%;
   }
 }
@@ -648,6 +650,7 @@ body #thdsection .imgs .presentE {
 @media only screen and (max-width: 768px) {
   body #thdsection .imgs .presentE {
     width: 80%;
+    height: 50vh;
     margin: 5% 10%;
   }
 }
